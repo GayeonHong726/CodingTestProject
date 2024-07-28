@@ -8,13 +8,14 @@ public class Baekjoon1149 {
 
         int N = sc.nextInt();
         int[][] arr = new int[N][3];
-        int[][] dp = new int[N][3];
 
         for(int i = 0; i < N; i++){
             for(int j = 0; j <3; j++){
                 arr[i][j] = sc.nextInt();
             }
         }
+
+        int[][] dp = new int[N][3];
 
         dp[0][0] = arr[0][0];
         dp[0][1] = arr[0][1];
