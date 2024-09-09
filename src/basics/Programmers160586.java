@@ -1,7 +1,7 @@
 package basics;
 
 import java.util.*;
-public class Programmars160586 {
+public class Programmers160586 {
     class Solution {
         public int[] solution(String[] keymap, String[] targets) {
             int[] answer = new int[targets.length];

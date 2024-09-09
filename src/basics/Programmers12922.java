@@ -1,6 +1,6 @@
 package basics;
 
-public class Programmars12922 {
+public class Programmers12922 {
     class Solution {
         public String solution(int n) {
             char a = '수';

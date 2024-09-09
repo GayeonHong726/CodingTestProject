@@ -1,6 +1,6 @@
 package basics;
 
-public class Programmars293261 {
+public class Programmers293261 {
 //    SELECT fi.ID 'ID', fni.FISH_NAME 'FISH_NAME', fi.LENGTH 'LENGTH'
 //    FROM FISH_INFO fi, FISH_NAME_INFO fni
 //    WHERE fi.FISH_TYPE=fni.FISH_TYPE

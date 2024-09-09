@@ -1,6 +1,6 @@
 package basics;
 
-public class Programmars140108 {
+public class Programmers140108 {
     class Solution {
         public int solution(String s) {
             int answer = 1;
