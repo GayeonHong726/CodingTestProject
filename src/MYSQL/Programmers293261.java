@@ -1,4 +1,4 @@
-package basics;
+package MYSQL;
 
 public class Programmers293261 {
 //    SELECT fi.ID 'ID', fni.FISH_NAME 'FISH_NAME', fi.LENGTH 'LENGTH'

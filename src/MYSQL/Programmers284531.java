@@ -1,4 +1,4 @@
-package basics;
+package MYSQL;
 
 public class Programmers284531 {
 //    SELECT 	ROUTE,
