@@ -1,4 +1,5 @@
 package basics;
+import java.util.Arrays;
 
 public class Programmers12982 {
     public static void main(String[] args){
@@ -8,6 +9,7 @@ public class Programmers12982 {
         int sum = 0;
         int answer = 0;
 
+        Arrays.sort(d);
         for(int i = 0; i < d.length; i++){
             sum += d[i];
             if(sum > budget){
