@@ -1,7 +1,7 @@
-package basics;
+package KAKAO;
 
 import java.util.*;
-public class Programmers150370 {
+public class KAKAO150370 {
     class Solution {
         public int[] solution(String today, String[] terms, String[] privacies) {
             List<Integer> answer = new ArrayList<>();
