@@ -1,0 +1,9 @@
+package MYSQL;
+
+public class Programmers298519 {
+//    SELECT COUNT(*) AS 'FISH_COUNT', Max(LENGTH) AS 'MAX_LENGTH', FISH_TYPE
+//    FROM FISH_INFO
+//    GROUP BY FISH_TYPE
+//    HAVING AVG(IFNULL(LENGTH,10)) >= 33
+//    ORDER BY FISH_TYPE
+}
