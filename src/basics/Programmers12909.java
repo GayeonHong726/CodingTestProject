@@ -3,26 +3,20 @@ package basics;
 public class Programmers12909 {
     class Solution {
         boolean solution(String s) {
-            int open = 0;
-            int close = 0;
+            int balance = 0;
 
-            for(int i = 0; i < s.length(); i++) {
+            for(int i = 0; i < s.length(); i++){
                 if(s.charAt(i) == '('){
-                    open++;
-                } else if(s.charAt(i) == ')') {
-                    close++;
+                    balance++;
+                } else {
+                    balance--;
                 }
 
-                if( open < close ) {
+                if(balance < 0) { // 닫힌 괄호가 먼저 나오는 경우
                     return false;
                 }
             }
-
-            if( open == close){
-                return true;
-            } else {
-                return false;
-            }
+            return balance == 0; // 모든 괄호가 균형을 이루면 true, 아니면 false
         }
     }
 }
