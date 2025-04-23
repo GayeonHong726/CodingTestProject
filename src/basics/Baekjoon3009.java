@@ -1,6 +1,6 @@
 package basics;
 import java.util.*;
-public class Backjoon3009 {
+public class Baekjoon3009 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int[][] rec = new int[3][2];
