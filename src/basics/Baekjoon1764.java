@@ -1,36 +1,32 @@
 package basics;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+
 import java.util.*;
 
 public class Baekjoon1764 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int M = sc.nextInt();
+        Set<String> set = new HashSet<>();
+        ArrayList<String> list = new ArrayList<>();
 
-        HashSet<String> set = new HashSet<>();
-        List<String> list = new ArrayList<>();
-        String people;
+        int n = sc.nextInt();
+        int m = sc.nextInt();
 
-        for(int i = 0; i < N; i++){
-            people = sc.next();
-            set.add(people);
+        for(int i = 0; i < n; i++){
+            set.add(sc.next());
         }
 
-        for(int i = 0; i < M; i++){
-            people=sc.next();
-            if(set.contains(people)){
-                list.add(people);
+        for(int i = 0; i < m; i++){
+            String name = sc.next();
+            if(set.contains(name)) {
+                list.add(name);
             }
         }
 
-        System.out.println(list.size());
         Collections.sort(list);
-        for(String str : list){
-            System.out.println(str);
-        }
 
+        System.out.println(list.size());
+        for(String name : list){
+            System.out.println(name);
+        }
     }
 }
